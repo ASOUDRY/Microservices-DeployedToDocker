@@ -1,0 +1,12 @@
+
+# How to get Docker Desktop
+https://docs.docker.com/desktop/
+
+# Find your docker image
+https://hub.docker.com/
+
+# Build the Docker image for your microservice
+docker build -t monster-consumer .
+
+# Run the Eureka server container with a specific name
+docker run -p 8080:8080 --name eureka-container-name eureka-server
